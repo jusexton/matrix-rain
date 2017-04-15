@@ -5,7 +5,7 @@ Contains tools for displaying custom matrix rain on screen.
 (Apologies for small text. This is the unwanted result of the below bug.)
 
 # Known Bugs  
-1. Displays innacurate data when modifying text size. (Symbol.java line 57)
+1. Displays innacurate data when modifying text size. (Symbol.java line 57)  
 Issue has been posted on processing repo: https://github.com/processing/processing/issues/4956
 
 # Inspired By
