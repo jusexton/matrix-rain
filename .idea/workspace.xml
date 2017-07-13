@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="762a471c-881c-4a2d-abd8-3fe9768e0adf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/core.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MatrixRain/Symbol.class" afterPath="$PROJECT_DIR$/out/production/MatrixRain/Symbol.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="762a471c-881c-4a2d-abd8-3fe9768e0adf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,10 +16,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="-28">
               <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Symbol.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Symbol.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Symbol.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -48,7 +44,7 @@
       <file leaf-file-name="RainStream.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RainStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="-272">
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
@@ -689,12 +685,12 @@
       <workItem from="1489217138873" duration="3426000" />
       <workItem from="1489225984353" duration="35000" />
       <workItem from="1489264165407" duration="945000" />
-      <workItem from="1499956162466" duration="224000" />
+      <workItem from="1499956162466" duration="354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6467000" />
+    <option name="totallyTimeSpent" value="6597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -931,9 +927,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Symbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/RainStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="-272">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
@@ -941,7 +945,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="-28">
           <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -949,14 +953,6 @@
             <element signature="e#924#925#0" expanded="true" />
             <element signature="e#952#953#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Symbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
