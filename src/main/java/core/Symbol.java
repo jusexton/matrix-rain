@@ -1,15 +1,14 @@
-import processing.core.PApplet;
+package core;
 
-/**
- * Represents a symbol that will drift and change as it is
- * continuously displayed
- */
+import processing.core.PApplet;
+import util.RandomUtil;
+
 public class Symbol {
     private float xPosition;
     private float yPosition;
     private char symbol;
     private PApplet parent;
-    private float size = 35f;
+    private float size = 30f;
     private float velocity = 3f;
     private int changeInterval;
     private Color color;
@@ -23,7 +22,7 @@ public class Symbol {
         this.yPosition = yPosition;
         // Sets symbol to a random Katakana character.
         this.symbol = generateRandomSymbol(0x30A0, 96);
-        changeInterval = MathUtil.getRandomInt(15, 25);
+        changeInterval = RandomUtil.getRandomInt(15, 25);
         color = new Color(0, 255, 70);
     }
 
@@ -44,24 +43,21 @@ public class Symbol {
      * @return The randomly generated character
      */
     public static char generateRandomSymbol(final int origin, final int bound) {
-        return (char) (origin + MathUtil.getRandomInt(0, bound));
+        return (char) (origin + RandomUtil.getRandomInt(0, bound));
     }
 
     /**
-     * Displays the symbol instance onto the parent
-     * and updates the instance.
+     * Displays the symbol instance onto the parent and updates the instance.
      */
     public void show() {
         parent.fill(color.getRed(), color.getGreen(), color.getBlue(), opacity);
-        // TODO: Fix this dumb bug
-        // parent.textSize(size);
+        parent.textSize(size);
         parent.text(symbol, xPosition, yPosition);
         update();
     }
 
     /**
-     * Responsible for changing the symbol during display and
-     * progressing the symbol down the screen.
+     * Responsible for changing the symbol during display and progressing the symbol down the screen.
      */
     private void update() {
         if (yPosition >= parent.height) {

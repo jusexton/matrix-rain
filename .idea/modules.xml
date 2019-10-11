@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MatrixRain.iml" filepath="$PROJECT_DIR$/MatrixRain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/matrix-rain.iml" filepath="$PROJECT_DIR$/.idea/modules/matrix-rain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/matrix-rain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/matrix-rain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/matrix-rain.test.iml" filepath="$PROJECT_DIR$/.idea/modules/matrix-rain.test.iml" />
     </modules>
   </component>
 </project>

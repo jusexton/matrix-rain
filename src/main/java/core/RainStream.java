@@ -1,11 +1,10 @@
+package core;
+
 import processing.core.PApplet;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-/**
- * Stores symbols and displays them in formation.
- */
 public class RainStream {
     private int length;
     private Queue<Symbol> stream;

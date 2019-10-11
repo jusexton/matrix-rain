@@ -1,15 +1,16 @@
+import core.Color;
+import core.RainStream;
 import processing.core.PApplet;
+import util.RandomUtil;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- */
-public class Main extends PApplet {
+public class MainApplication extends PApplet {
     private List<RainStream> streams;
 
     public static void main(String[] args) {
-        PApplet.main("Main");
+        PApplet.main(MainApplication.class);
     }
 
     public void setup() {
@@ -18,12 +19,12 @@ public class Main extends PApplet {
         streams = new ArrayList<>();
         int x = 0;
         for (int i = 0; i < width / 50; i++) {
-            RainStream stream = new RainStream(this, MathUtil.getRandomInt(8, 20));
-            stream.setVelocity((float) MathUtil.getRandomDouble(1.0, 2.0));
-            stream.setColor(new Color(MathUtil.getRandomInt(1, 255),
-                    MathUtil.getRandomInt(1, 255),
-                    MathUtil.getRandomInt(1, 255)));
-            stream.generateStream(x, MathUtil.getRandomInt(-1000, 0));
+            RainStream stream = new RainStream(this, RandomUtil.getRandomInt(8, 20));
+            stream.setVelocity((float) RandomUtil.getRandomDouble(1.0, 2.0));
+            stream.setColor(new Color(RandomUtil.getRandomInt(1, 255),
+                    RandomUtil.getRandomInt(1, 255),
+                    RandomUtil.getRandomInt(1, 255)));
+            stream.generateStream(x, RandomUtil.getRandomInt(-1000, 0));
             streams.add(stream);
             x += 50;
         }

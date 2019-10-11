@@ -1,6 +1,5 @@
-/**
- * Holds color data.
- */
+package core;
+
 public class Color {
     private int red;
     private int green;

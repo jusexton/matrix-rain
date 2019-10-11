@@ -1,7 +1,6 @@
-/**
- * Utility class, currently contains functions for generating random values.
- */
-public class MathUtil {
+package util;
+
+public final class RandomUtil {
     public static int getRandomInt(final int min, final int max) {
         return (int) (Math.random() * ((max - min) + 1)) + min;
     }
